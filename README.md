@@ -107,9 +107,10 @@ This automatically publishes your `/dist` build to the `gh-pages` branch.
 
 ## 📸 Screenshots
 
-| Home Page                                                        | Destinations                                                           |
-| ---------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| ![Home Page](https://via.placeholder.com/400x200?text=Home+Page) | ![Destinations](https://via.placeholder.com/400x200?text=Destinations) |
+ Home Page
+<img width="1896" height="857" alt="TravelEase" src="https://github.com/user-attachments/assets/2fa01b3d-7fc0-4810-ae78-03d1bdac10b0" />
+ Destinations<img width="1899" height="865" alt="TravelEase app" src="https://github.com/user-attachments/assets/29c69b34-c221-48a5-9c62-8116fe82fdf0" />
+
 
 ---
 
@@ -126,3 +127,4 @@ Front-End Developer | React | UI Enthusiast
 📫 Reach me at: **[ashokchavala46@gmail.com](mailto:ashokchavala46@gmail.com)**
 
 ---
+
