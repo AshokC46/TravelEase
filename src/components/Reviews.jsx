@@ -74,7 +74,7 @@ const Reviews = () => {
           <Grid item xs={12} sm={6} md={6} key={index}>
             <Card
               sx={{
-                p: 3,
+                p: 2,
                 borderRadius: 3,
                 boxShadow: 3,
                 maxWidth: 650,
