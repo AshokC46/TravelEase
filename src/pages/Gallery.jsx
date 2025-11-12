@@ -32,7 +32,7 @@ const Gallery = () => {
         Explore Beautiful Destinations
       </Typography>
 
-      <Grid container spacing={2}>
+      <Grid container spacing={2} justifyContent={"center"}>
         {galleryImages.map((img, i) => (
           <Grid
             item
@@ -46,6 +46,7 @@ const Gallery = () => {
               cursor: "pointer",
               transition: "transform 0.3s ease",
               "&:hover": { transform: "scale(1.03)" },
+              
             }}
           >
             <Box

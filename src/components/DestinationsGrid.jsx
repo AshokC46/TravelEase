@@ -36,7 +36,7 @@ const destinations = [
   {
     name: "New York, USA",
     image:
-      "https://images.unsplash.com/photo-1518391846015-55a9cc003b25?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG5ldyUyMHlvcmt8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600",
+      "https://images.unsplash.com/photo-1518391846015-55a9cc003b25?auto=format&fit=crop&w=800&q=80",
     description: "The city that never sleeps—vibrant and full of life.",
   },
   {

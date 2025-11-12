@@ -80,7 +80,16 @@ const Destinations = () => {
           />
         </Box>
 
-        <Grid container spacing={4} justifyContent="center">
+        <Grid
+          container
+          spacing={4}
+          justifyContent="center"
+          alignItems="stretch"
+          sx={{
+            maxWidth: "1200px",
+            margin: "0 auto",
+          }}
+        >
           {filteredDestinations.length > 0 ? (
             filteredDestinations.map((dest) => (
               <Grid
@@ -91,10 +100,15 @@ const Destinations = () => {
                 lg={3}
                 key={dest.id}
                 data-aos="fade-up"
+                sx={{
+                  display: "flex",
+                  justifyContent: "center",
+                }}
               >
                 <motion.div
                   whileHover={{ scale: 1.05 }}
                   transition={{ duration: 0.3 }}
+                  style={{ width: "100%", maxWidth: 340 }} 
                 >
                   <Card
                     sx={{
@@ -102,16 +116,17 @@ const Destinations = () => {
                       boxShadow: "0 4px 20px rgba(0,0,0,0.1)",
                       overflow: "hidden",
                       backgroundColor: "#fff",
+                      height: "100%",
                     }}
                   >
                     <CardMedia
                       component="img"
-                      height="200"
                       image={dest.images[0]}
                       alt={dest.name}
                       sx={{
-                        transition: "transform 0.3s ease",
-                        "&:hover": { transform: "scale(1.08)" },
+                        width: "100%",
+                        height: 220,
+                        objectFit: "cover",
                       }}
                     />
                     <CardContent>
@@ -121,6 +136,7 @@ const Destinations = () => {
                       >
                         {dest.name}, {dest.country}
                       </Typography>
+
                       <Box display="flex" alignItems="center" gap={1}>
                         <Rating
                           name="read-only"
@@ -147,6 +163,7 @@ const Destinations = () => {
                       >
                         {dest.description.slice(0, 60)}...
                       </Typography>
+
                       <Box
                         display="flex"
                         justifyContent="space-between"

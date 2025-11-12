@@ -11,7 +11,7 @@ export const destinationsData = [
       "https://images.unsplash.com/photo-1471623432079-b009d30b6729?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHBhcmlzfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600",
     ],
     description:
-      "Discover the city of lights — enjoy the Eiffel Tower, art museums, and romantic streets of Paris.",
+      "Discover the city of lights enjoy the Eiffel Tower, art museums.",
   },
   {
     id: 2,
@@ -21,11 +21,11 @@ export const destinationsData = [
     rating: 4.9,
     images: [
       "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=800&q=80",
-      "https://plus.unsplash.com/premium_photo-1661902398022-762e88ff3f82?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8amFwYW4lMjB0b2t5b3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600",
-      "https://plus.unsplash.com/premium_photo-1661963745503-8b3a86b8c2b1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8amFwYW4lMjB0b2t5b3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600",
+      "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8amFwYW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600",
+      "https://images.unsplash.com/photo-1542051841857-5f90071e7989?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8amFwYW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600",
     ],
     description:
-      "Experience the perfect blend of technology and tradition in Tokyo. From sushi to skyscrapers — it’s all here!",
+      "Experience the perfect blend of technology and tradition in Tokyo. ",
   },
   {
     id: 3,
@@ -34,10 +34,9 @@ export const destinationsData = [
     price: 65000,
     rating: 4.7,
     images: [
-      "https://images.unsplash.com/photo-1704253411612-e4deb715dcd8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFsaSUyMGluZG9uZXNpYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600",
-      "https://plus.unsplash.com/premium_photo-1668883188917-761f35942220?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGJhbGklMjBpbmRvbmVzaWF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600",
-      "https://images.unsplash.com/photo-1543424376-0df9d9e216fc?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmFsaSUyMGluZG9uZXNpYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600",
-      
+      "https://images.unsplash.com/photo-1704253411612-e4deb715dcd8?auto=format&fit=crop&w=800&h=500&q=80",
+      "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?auto=format&fit=crop&w=800&h=500&q=80",
+      "https://images.unsplash.com/photo-1543424376-0df9d9e216fc?auto=format&fit=crop&w=800&h=500&q=80",
     ],
     description:
       "Relax on white sand beaches, explore temples, and enjoy tropical vibes on the island of Bali.",
@@ -49,10 +48,11 @@ export const destinationsData = [
     price: 78000,
     rating: 4.6,
     images: [
-      "https://plus.unsplash.com/premium_photo-1697729914552-368899dc4757?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZHViYWl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600",
-      "https://images.unsplash.com/photo-1546412414-8035e1776c9a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGR1YmFpfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600",
-      "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHViYWl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600"
+      "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=800&h=500&q=80",
+      "https://images.unsplash.com/photo-1546412414-8035e1776c9a?auto=format&fit=crop&w=800&h=500&q=80",
+      "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=800&h=500&q=80",
     ],
+
     description:
       "Visit the luxury capital of the world — Burj Khalifa, shopping malls, and golden deserts await you.",
   },
@@ -63,9 +63,9 @@ export const destinationsData = [
     price: 88000,
     rating: 4.8,
     images: [
-      "https://images.unsplash.com/photo-1565475783696-96001eff1b45?auto=format&fit=crop&w=800&q=80",
-      "https://plus.unsplash.com/premium_photo-1663957881842-ac05e2441a08?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG5ld3lvcmt8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600",
-      "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=800&h=500&q=80",
+      "https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?auto=format&fit=crop&w=800&h=500&q=80",
+      "https://images.unsplash.com/photo-1483653364400-eedcfb9f1f88?auto=format&fit=crop&w=800&h=500&q=80",
     ],
     description:
       "The city that never sleeps — explore Times Square, Central Park, and Broadway in vibrant New York.",
@@ -77,9 +77,9 @@ export const destinationsData = [
     price: 82000,
     rating: 4.7,
     images: [
-      "https://plus.unsplash.com/premium_photo-1682056762907-23d08f913805?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1448906654166-444d494666b3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGxvbmRvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600",
+      "https://images.unsplash.com/photo-1486299267070-83823f5448dd?auto=format&fit=crop&w=800&h=500&q=80",
+      "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&w=800&h=500&q=80",
+      "https://images.unsplash.com/photo-1448906654166-444d494666b3?auto=format&fit=crop&w=800&h=500&q=80",
     ],
     description:
       "From Big Ben to Buckingham Palace — London offers history, art, and the charm of classic Europe.",

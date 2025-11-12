@@ -16,7 +16,7 @@ const App = () => {
   return (
     <>
       <Toaster position="top-center" />
-      <Router basename="/TravelEase">
+      <Router >
         <ScrollToTop />
         <Routes>
           <Route element={<Layout />}>
