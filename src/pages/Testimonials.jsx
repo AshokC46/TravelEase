@@ -18,7 +18,7 @@ const testimonials = [
     name: "Emma Wilson",
     country: "Australia",
     review:
-      "TravelEase made planning my honeymoon effortless! The recommendations were amazing and the booking process was smooth.",
+      "Our overall experience of the tour was excellent! Our group consisted of 11 adults and 1 child, and we visited several wonderful destinations — New Delhi, Mathura, Vrindavan, Agra, Ayodhya, and Varanasi. The traveller picked us up from the station right on time, and the driver was especially courteous and helpful throughout the journey. The hotels arranged by the agency were comfortable and well-maintained, adding to the pleasant experience. Overall, the trip was truly memorable, and we will cherish these moments forever. Highly recommended!",
     rating: 5,
     img: "https://randomuser.me/api/portraits/women/68.jpg",
   },
@@ -26,7 +26,7 @@ const testimonials = [
     name: "Liam Patel",
     country: "India",
     review:
-      "Excellent experience! I found the perfect adventure package to Bali. The support team was very responsive and helpful.",
+      "It was a memorable trip for my family. Mr. Shailendra, the tour manager was prompt in responding to any situation and he helped the travel to go through very smoothly. The hotels were excellent, the cab drivers were very helpful and informative. Overall I will rate the experience as excellent. Desert Safari, visit to Umed Bhavan palace, visiting blue City of Jodhpur and the Jaisalmer War museum were the best part of the tour.",
     rating: 4,
     img: "https://randomuser.me/api/portraits/men/32.jpg",
   },
@@ -34,7 +34,7 @@ const testimonials = [
     name: "Sophia Chen",
     country: "Singapore",
     review:
-      "Loved how easy it was to explore destinations and filter packages. TravelEase saved me hours of research!",
+      "I just wanted to take a moment to sincerely thank you for organizing our family trip to Vietnam. From start to finish, everything was perfectly planned and executed. The itinerary flowed smoothly, the transfers were on time, and every detail was thoughtfully taken care of. The hotels and accommodations you selected were truly amazing – comfortable, well-located, and full of charm. Each day felt special and added so much to our experience. Vin wonders and 7 island tour was just amazing. Culture shows and fireworks at the kiss of the bridge was unforgettable experience. Thanks Jennie, Emi, Vivian and Team. Awesome Vietnam",
     rating: 5,
     img: "https://randomuser.me/api/portraits/women/52.jpg",
   },
@@ -42,7 +42,7 @@ const testimonials = [
     name: "James Anderson",
     country: "USA",
     review:
-      "Such a delightful experience! Beautiful UI, smooth navigation, and the destinations gallery is stunning.",
+      "We had planned for 8d and 9n at japan. The complete trip was awesome, our trip was planned by serene holidays. It was a well planned trip and trip advisor DARPAN from serene holidays had enough patience to clarify all our doubts. So overall it was a memorable trip. Thanks to serene holidays and travel triangle for this.",
     rating: 5,
     img: "https://randomuser.me/api/portraits/men/70.jpg",
   },
@@ -86,6 +86,7 @@ const Testimonials = () => {
                   boxShadow: 3,
                   textAlign: "center",
                   height: "100%",
+                  width: "70%",
                   position: "relative",
                   backgroundColor: "white",
                   transition: "transform 0.3s ease, box-shadow 0.3s ease",
