@@ -31,7 +31,8 @@ const HeroSection = () => {
         size="large"
         sx={{
           backgroundColor: "#1565C0",
-          "&:hover": { backgroundColor: "#0d47a1" },
+          "&:hover": { backgroundColor: "#ff9800" },
+          borderRadius: 4,
         }}
         onClick={() => navigate("/destinations")}
       >
